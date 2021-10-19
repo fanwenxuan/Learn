@@ -1,0 +1,12 @@
+C:\Projects\csharp\Learn\MyLibrary\bin\Debug\net5.0\MyLibrary.deps.json
+C:\Projects\csharp\Learn\MyLibrary\bin\Debug\net5.0\MyLibrary.dll
+C:\Projects\csharp\Learn\MyLibrary\bin\Debug\net5.0\ref\MyLibrary.dll
+C:\Projects\csharp\Learn\MyLibrary\bin\Debug\net5.0\MyLibrary.pdb
+C:\Projects\csharp\Learn\MyLibrary\obj\Debug\net5.0\MyLibrary.csproj.AssemblyReference.cache
+C:\Projects\csharp\Learn\MyLibrary\obj\Debug\net5.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\csharp\Learn\MyLibrary\obj\Debug\net5.0\MyLibrary.AssemblyInfoInputs.cache
+C:\Projects\csharp\Learn\MyLibrary\obj\Debug\net5.0\MyLibrary.AssemblyInfo.cs
+C:\Projects\csharp\Learn\MyLibrary\obj\Debug\net5.0\MyLibrary.csproj.CoreCompileInputs.cache
+C:\Projects\csharp\Learn\MyLibrary\obj\Debug\net5.0\MyLibrary.dll
+C:\Projects\csharp\Learn\MyLibrary\obj\Debug\net5.0\ref\MyLibrary.dll
+C:\Projects\csharp\Learn\MyLibrary\obj\Debug\net5.0\MyLibrary.pdb
