@@ -1,6 +1,6 @@
 ﻿using System;
 using MyLibrary;
-
+using System.Collections.Generic;
 namespace ConsoleApp
 {
     class Program
@@ -52,8 +52,24 @@ namespace ConsoleApp
 
         private static void JiekouDemo()
         {
-            Person person=new Person ();
-            person.WriteToConsole();
+            Person[] people=
+            {
+                new Person{Name="ap"},
+                new Person{Name="ep"},
+                new Person{Name="bp"}
+            };
+            foreach(var p in people)
+            {
+                Console.WriteLine($"before sort:{p.Name}");
+            }
+
+            Array.Sort(people);
+            foreach(var p in people)
+            {
+                Console.WriteLine($"after sort:{p.Name}");
+            }
+            
+
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace MyLibrary
 {
     public delegate int DelegateDemo(string str);
-    public class Person
+    public class Person:IComparable<Person>
     {
         public string Name;
         public DateTime DateOfBirth;
@@ -69,6 +69,11 @@ namespace MyLibrary
         public int DelegateMethodB(string s)
         {
             return s.Length+1;
+        }
+
+        public int CompareTo(Person other)
+        {
+            return Name.CompareTo(other.Name);
         }
     }
 }
