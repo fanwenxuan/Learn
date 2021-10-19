@@ -10,6 +10,7 @@ namespace ConsoleApp
             Console.WriteLine("Hello World!");
             Person harry=new Person{Name="Harry"};
             Person mary=new Person{Name="Mary"};
+            
 
             /***
             var baby1=harry.ProCreateWith(mary);
@@ -29,6 +30,7 @@ namespace ConsoleApp
             Console.WriteLine(d("helloworld"));
             ***/
 
+            /***
             Dog dog=new Dog ();
             dog.Shout+=Dog_Shout;
             dog.Poke();
@@ -36,7 +38,9 @@ namespace ConsoleApp
             dog.Poke();
             dog.Poke();
             dog.Poke();
-            
+            ***/
+            JiekouDemo();
+
             Console.WriteLine("Bye!");
         }
 
@@ -44,6 +48,12 @@ namespace ConsoleApp
         {
             Dog dog=(Dog)sender;
             Console.WriteLine($"{dog.Name} is this angry:{dog.AngerLevel}");
+        }
+
+        private static void JiekouDemo()
+        {
+            Person person=new Person ();
+            person.WriteToConsole();
         }
     }
 }
