@@ -29,6 +29,7 @@ namespace ConsoleApp
             Console.WriteLine(d("helloworld"));
             ***/
 
+            /**
             Dog dog=new Dog ();
             dog.Shout+=Dog_Shout;
             dog.Poke();
@@ -36,6 +37,8 @@ namespace ConsoleApp
             dog.Poke();
             dog.Poke();
             dog.Poke();
+            ***/
+            Demo_Compare();
             
             Console.WriteLine("Bye!");
         }
@@ -44,6 +47,25 @@ namespace ConsoleApp
         {
             Dog dog=(Dog)sender;
             Console.WriteLine($"{dog.Name} is this angry:{dog.AngerLevel}");
+        }
+
+        private static void Demo_Compare()
+        {
+            DemoCompare[] demos=
+            {
+                new DemoCompare{Age=18,Name="tom"},
+                new DemoCompare{Age=21,Name="Bill"},
+                new DemoCompare{Age=17,Name="Kapper"}
+            };
+            foreach(var d in demos)
+            {
+                Console.WriteLine($"Before:Age--{d.Age};Name--{d.Name}");
+            }
+            Array.Sort(demos);
+            foreach(var d in demos)
+            {
+                Console.WriteLine($"After:Age--{d.Age};Name--{d.Name}");
+            }
         }
     }
 }
