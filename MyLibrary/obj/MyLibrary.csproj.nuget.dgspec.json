@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\csharp\\Learn\\MyLibrary\\MyLibrary.csproj": {}
+    "D:\\projects\\Learn\\Learn\\MyLibrary\\MyLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\csharp\\Learn\\MyLibrary\\MyLibrary.csproj": {
+    "D:\\projects\\Learn\\Learn\\MyLibrary\\MyLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\csharp\\Learn\\MyLibrary\\MyLibrary.csproj",
+        "projectUniqueName": "D:\\projects\\Learn\\Learn\\MyLibrary\\MyLibrary.csproj",
         "projectName": "MyLibrary",
-        "projectPath": "C:\\Projects\\csharp\\Learn\\MyLibrary\\MyLibrary.csproj",
-        "packagesPath": "C:\\Users\\fanwenxuan\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\csharp\\Learn\\MyLibrary\\obj\\",
+        "projectPath": "D:\\projects\\Learn\\Learn\\MyLibrary\\MyLibrary.csproj",
+        "packagesPath": "C:\\Users\\FWX\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\Learn\\Learn\\MyLibrary\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fanwenxuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FWX\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
